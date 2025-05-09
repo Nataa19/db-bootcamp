@@ -49,12 +49,12 @@ Ahora creamos la DB "bootcamp_db"
 - Revisar con `\l` si se creó correctamente la base de datos:
 
 Deberíamos de ver algo así:
-![chequeo_de_bdd](chequeo_de_bdd.png)
+![chequeo_de_bdd](graphic-content/chequeo_de_bdd.png)
     
 - Conectarse a la base de datos: “`\c bootcamp_db`”:
 
 Deberíamos de ver como ahora estamos conectados a la otra DB:
-![[chequeo-conexion.png]]
+![chequeo-conexion](graphic-content/chequeo-conexion.png)
 
     
 - Inyectar los siguientes datos:**
@@ -79,28 +79,28 @@ Deberíamos de ver como ahora estamos conectados a la otra DB:
 
 `SELECT * FROM employees;`
 
-![[select-employees.png]]
+![select-employees](graphic-content/select-employees.png)
 
 - Realizar query que filtre empleados por posición Developer.
 
 `SELECT * FROM employees WHERE position='Developer';`
-![[query-developer.png]]
+![query-developer.png](graphic-content/query-developer.png)
     
 - Realizar query que busque al empleado con ID 3.
 
 `SELECT * FROM employees WHERE id=3;`
-![[query-id-3.png]]
+![query-id-3](graphic-content/query-id-3.png)
 
 - Realizar query que cuente el número total de empleados.
 
 `SELECT COUNT(*) FROM employees;`
-![[query-count-employees.png]]
+![query-count-employees](graphic-content/query-count-employees.png)
 
 - Realizar query que muestre los empleados con salario mayor a 60000.
 
 `SELECT * FROM employees WHERE salary>60000;`
 
-![[query-salary.png]]
+![query-salary](graphic-content/query-salary.png)
 
 5. **Realizar query pero para mostrar todos los datos actualizados.**
 
@@ -114,12 +114,12 @@ Entonces tenemos que verificar que se hayan actualizados los cambios con:
 
 `SELECT salary FROM employees` 
 `WHERE id=1;`
-![[check-update.png]]
+![check-update](graphic-content/check-update.png)
 
 Efectivamente vemos que actualizaron y ahora Alice tendría un salario más alto.
 
 6. **Salir del contenedor con `\q` y luego exit.**
 
-![[quit.png]]
+![quit](graphic-content/quit.png)
 
 
