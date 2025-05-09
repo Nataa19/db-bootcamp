@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:latest
+    restart: no
+    shm_size: 128mb
+    environment:
+      POSTGRES_DB: natadb
+      POSTGRES_USER: nata
+      POSTGRES_PASSWORD: nata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
