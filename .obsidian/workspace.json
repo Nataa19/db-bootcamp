@@ -170,9 +170,10 @@
   },
   "active": "24d6c158dd438e5a",
   "lastOpenFiles": [
+    "graphic-content/prompt.md",
+    "README.md",
     "graphic-content/check-update.png",
     "graphic-content/quit.png",
-    "README.md",
     "graphic-content/query-salary.png",
     "graphic-content/query-count-employees.png",
     "graphic-content/query-id-3.png",
@@ -180,7 +181,7 @@
     "graphic-content/select-employees.png",
     "graphic-content/chequeo-conexion.png",
     "graphic-content/chequeo_de_bdd.png",
-    "graphic-content/prompt postgres.png",
+    "graphic-content/prompt-postgres.png",
     "graphic-content"
   ]
 }
