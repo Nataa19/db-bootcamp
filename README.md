@@ -49,7 +49,7 @@ Ahora creamos la DB "bootcamp_db"
 - Revisar con `\l` si se creó correctamente la base de datos:
 
 Deberíamos de ver algo así:
-![[chequeo_de_bdd.png]]
+![chequeo_de_bdd](chequeo_de_bdd.png)
     
 - Conectarse a la base de datos: “`\c bootcamp_db`”:
 
