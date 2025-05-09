@@ -84,16 +84,19 @@ Deberíamos de ver como ahora estamos conectados a la otra DB:
 - Realizar query que filtre empleados por posición Developer.
 
 `SELECT * FROM employees WHERE position='Developer';`
+
 ![query-developer.png](graphic-content/query-developer.png)
     
 - Realizar query que busque al empleado con ID 3.
 
 `SELECT * FROM employees WHERE id=3;`
+
 ![query-id-3](graphic-content/query-id-3.png)
 
 - Realizar query que cuente el número total de empleados.
 
 `SELECT COUNT(*) FROM employees;`
+
 ![query-count-employees](graphic-content/query-count-employees.png)
 
 - Realizar query que muestre los empleados con salario mayor a 60000.
@@ -114,6 +117,7 @@ Entonces tenemos que verificar que se hayan actualizados los cambios con:
 
 `SELECT salary FROM employees` 
 `WHERE id=1;`
+
 ![check-update](graphic-content/check-update.png)
 
 Efectivamente vemos que actualizaron y ahora Alice tendría un salario más alto.
