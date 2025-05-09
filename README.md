@@ -39,7 +39,7 @@ Ejecutamos el `docker exec` para poder ingresar a Postgres desde terminal:
 
 Una vez dentro deberíamos ver el prompt de PostgreSQL y el nombre de la respectiva DB, algo así:
 
-![[prompt postgres.png]]
+![prompt postgres](graphic-content/prompt postgres.png)
 
 Ahora creamos la DB "bootcamp_db"
 
